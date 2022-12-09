@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #line 1 "C:\\Users\\nadan\\Documents\\Arduino\\sketch_dec09a\\sketch_dec09a.ino"
 
-int d=60000;
+int d=1000;
 #line 3 "C:\\Users\\nadan\\Documents\\Arduino\\sketch_dec09a\\sketch_dec09a.ino"
 void setup();
 #line 10 "C:\\Users\\nadan\\Documents\\Arduino\\sketch_dec09a\\sketch_dec09a.ino"
@@ -19,7 +19,7 @@ void loop() {
   delay(d);
   digitalWrite(13,LOW);
   digitalWrite(12,HIGH);
-  delay(d/10);
+  delay(d/4);
   digitalWrite(12,LOW);
   digitalWrite(11,HIGH);
   delay(d);
